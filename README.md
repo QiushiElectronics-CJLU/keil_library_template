@@ -56,9 +56,9 @@
 3. 运行命令
 	```Powershell
 	& { 
-		$env:GITHUB_MIRROR = 'https://mirror.ghproxy.com'; 
+		$env:GITHUB_MIRROR = 'https://git.likangfeng.edu.eu.org/https://raw.githubusercontent.com/'; 
 		$m = $env:GITHUB_MIRROR;
-		iex ((iwr "$m/neoluxis/keil_library_template/raw/main/scripts/setup.ps1").Content) 
+		iex ((iwr "$m/neoluxis/keil_library_template/refs/heads/main/scripts/setup.ps1").Content) 
 	} --run	
 	```
 4. 设置参数即可

@@ -7,7 +7,7 @@ if (-not $mirror) {
 }
 $mirror = $mirror.TrimEnd('/')
 
-$pyUrl = "$mirror/neoluxis/keil_library_template/raw/main/scripts/project_setup.py"
+$pyUrl = "$mirror/neoluxis/keil_library_template/refs/heads/main/scripts/project_setup.py"
 
 Write-Host "[*] Mirror: $mirror" -ForegroundColor Cyan
 Write-Host "[*] Fetching: $pyUrl" -ForegroundColor Gray
