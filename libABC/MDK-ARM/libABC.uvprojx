@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F103xB</Define>
               <Undefine></Undefine>
-              <IncludePath>../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;..\Core\inc</IncludePath>
+              <IncludePath>..\Library\inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -387,7 +387,17 @@
             <File>
               <FileName>libABC.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Core\src\libABC.c</FilePath>
+              <FilePath>..\Library\src\libABC.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>versions</GroupName>
+          <Files>
+            <File>
+              <FileName>versions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Versions\versions.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -776,7 +786,17 @@
             <File>
               <FileName>libABC.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\Core\src\libABC.c</FilePath>
+              <FilePath>..\Library\src\libABC.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>versions</GroupName>
+          <Files>
+            <File>
+              <FileName>versions.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Versions\versions.c</FilePath>
             </File>
           </Files>
         </Group>

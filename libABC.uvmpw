@@ -8,7 +8,12 @@
   <WorkspaceName>libABC</WorkspaceName>
 
   <project>
-    <PathAndName>.\libABC_tests\MDK-ARM\project.uvprojx</PathAndName>
+    <PathAndName>.\libABC\MDK-ARM\libABC.uvprojx</PathAndName>
+    <NodeIsExpanded>1</NodeIsExpanded>
+  </project>
+
+  <project>
+    <PathAndName>.\libABC_tests\MDK-ARM\libABC_tests.uvprojx</PathAndName>
     <NodeIsActive>1</NodeIsActive>
     <NodeIsExpanded>1</NodeIsExpanded>
   </project>

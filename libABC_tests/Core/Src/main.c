@@ -23,7 +23,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stdio.h"
+#include "dev/seekit/libABC/libABC.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -94,8 +95,16 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+	int j = 2, k = 1;
+	int* added = 0;
   while (1)
   {
+		for (uint32_t i=0x0004ffff; i; --i) {
+			example_function();
+		}
+		added = add(j, k);
+		printf("Result: %d, Overflow: %d\r\n", added[0], added[1]);
+		j *=2, k *=2;
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
