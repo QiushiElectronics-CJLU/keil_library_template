@@ -20,3 +20,5 @@
 *.htm
 *.lib
 *.dbgconf
+
+*_tests/Library
